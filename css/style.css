@@ -2,6 +2,20 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
 }
+.Main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+}
+.Main-content-section {
+  padding: 100px 90px;
+}
+.about-me-section {
+  margin: 0 0 40px 0;
+}
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
@@ -33,6 +47,12 @@ body {
   line-height: 27px;
   color: black;
   margin-bottom: 10px;
+}
+.My-projects-section {
+  margin: 0 0 50px 0;
+}
+.my-projects-item {
+  color: black;
 }
 .My-projects-list {
   padding: 0 0 0 17px;
@@ -66,6 +86,16 @@ body {
 .My-work-experience-company {
   color: #fb6d3a;
 }
+.my-work-experience-company1 {
+  margin: 0 15px 0 0;
+}
+.My-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
 .My-work-experience-period {
   font-style: normal;
   font-weight: normal;
@@ -73,6 +103,17 @@ body {
   line-height: 15px;
   color: #a8a8a8;
   margin: 0 0 10px 0;
+}
+.My-work-experience-divider {
+  color: #000000;
+}
+.My-work-experience-duties {
+  padding: 0 0 0 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 .sidebar-section {
   background-color: #1e2939;
@@ -118,4 +159,17 @@ body {
 }
 .tech-skills-item {
   color: #fb6d3a;
+}
+.soft-skills-list {
+  padding: 0 0 0 17px;
+}
+.soft-skills-item {
+  color: #fb6d3a;
+}
+.soft-skills-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
 }
